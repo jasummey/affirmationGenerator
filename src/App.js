@@ -17,14 +17,14 @@ function App() {
       <p class="currentAff">{currentAffirmation}</p>
       <button onClick={generateAffirmation}>Generate Affirmation</button>
       <br />
-      <div>
+      {/* <div>
         <form className="userForm">
           <label>
             Enter your name:
             <input type="text" />
           </label>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
